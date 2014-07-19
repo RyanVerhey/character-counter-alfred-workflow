@@ -5,7 +5,19 @@
 	<key>bundleid</key>
 	<string></string>
 	<key>connections</key>
-	<dict/>
+	<dict>
+		<key>58F434D9-0209-4D9E-BA11-EB71130AA696</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>D61491F1-CBD5-4F58-B135-25C911A4AC03</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+	</dict>
 	<key>createdby</key>
 	<string>Ryan Verhey</string>
 	<key>description</key>
@@ -23,6 +35,16 @@
 				<integer>0</integer>
 				<key>escaping</key>
 				<integer>127</integer>
+				<key>keyword</key>
+				<string>charcount</string>
+				<key>runningsubtext</key>
+				<string>Counting...</string>
+				<key>script</key>
+				<string>ruby ./char_count.rb {query}</string>
+				<key>subtext</key>
+				<string>Paste text to count characters</string>
+				<key>title</key>
+				<string>Character Counter</string>
 				<key>type</key>
 				<integer>0</integer>
 				<key>withspace</key>
@@ -35,12 +57,32 @@
 			<key>version</key>
 			<integer>0</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
+				<string>{query}</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>D61491F1-CBD5-4F58-B135-25C911A4AC03</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string></string>
 	<key>uidata</key>
 	<dict>
 		<key>58F434D9-0209-4D9E-BA11-EB71130AA696</key>
+		<dict>
+			<key>ypos</key>
+			<real>10</real>
+		</dict>
+		<key>D61491F1-CBD5-4F58-B135-25C911A4AC03</key>
 		<dict>
 			<key>ypos</key>
 			<real>10</real>
