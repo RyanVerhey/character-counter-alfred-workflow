@@ -13,7 +13,7 @@ Don't know what Alfred is? Check it out [here](http://www.alfredapp.com/).
 
 Just download the .alfredworkflow file linked below and open it with Alfred.
 
-__[DOWNLOAD](https://files.ryanverhey.dev/alfred/character-counter.alfredworkflow)__
+__[DOWNLOAD](https://cdn.ryanverhey.dev/alfred/character-counter.alfredworkflow)__
 
 ==============
 
